@@ -11,14 +11,14 @@ import UIKit
 
 extension UIViewController {
     func addLifeCycle(to parent: UIViewController, addSubviewBlock: ((UIViewController) -> Void)? = nil) {
-        parent.addChildViewController(self)
+        parent.addChild(self)
         self.beginAppearanceTransition(true, animated: false)
         if let block = addSubviewBlock {
             block(self)
         } else {
             parent.view.addSubview(self.view)
         }
-        self.didMove(toParentViewController: parent)
+        self.didMove(toParent: parent)
         self.endAppearanceTransition()
     }
 }

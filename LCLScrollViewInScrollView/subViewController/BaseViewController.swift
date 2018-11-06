@@ -12,13 +12,13 @@ import MJRefresh
 
 class BaseViewController: UIViewController {
     private var itemNum: Int = 30
-    weak var delegate: TestTableViewController?
+    weak var delegate: MainScrollViewController?
     
     lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.bounces = true
+        tableView.bounces = false
         return tableView
     }()
     

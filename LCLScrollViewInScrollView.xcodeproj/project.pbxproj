@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1472E1F2CF32819160F196D3 /* Pods_LCLScrollViewInScrollViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D71DBB45B44E595A1876A0 /* Pods_LCLScrollViewInScrollViewUITests.framework */; };
 		593118CC2191787C00325965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593118CB2191787C00325965 /* AppDelegate.swift */; };
 		593118CE2191787C00325965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593118CD2191787C00325965 /* ViewController.swift */; };
 		593118D12191787C00325965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593118CF2191787C00325965 /* Main.storyboard */; };
@@ -14,7 +15,17 @@
 		593118D62191787E00325965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593118D42191787E00325965 /* LaunchScreen.storyboard */; };
 		593118E12191787E00325965 /* LCLScrollViewInScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593118E02191787E00325965 /* LCLScrollViewInScrollViewTests.swift */; };
 		593118EC2191787E00325965 /* LCLScrollViewInScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593118EB2191787E00325965 /* LCLScrollViewInScrollViewUITests.swift */; };
-		593118FA219178FD00325965 /* MainScrollVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593118F9219178FD00325965 /* MainScrollVIewController.swift */; };
+		593118FA219178FD00325965 /* MainScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593118F9219178FD00325965 /* MainScrollViewController.swift */; };
+		593118FD21918F5100325965 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593118FC21918F5100325965 /* UIViewController+.swift */; };
+		593118FF21918F6600325965 /* MyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593118FE21918F6600325965 /* MyTableView.swift */; };
+		5931190121918F7A00325965 /* MyDynamicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5931190021918F7A00325965 /* MyDynamicItem.swift */; };
+		5931190A2191902900325965 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593119052191902900325965 /* SecondViewController.swift */; };
+		5931190B2191902900325965 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593119062191902900325965 /* FirstViewController.swift */; };
+		5931190C2191902900325965 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593119072191902900325965 /* FourViewController.swift */; };
+		5931190D2191902900325965 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593119082191902900325965 /* ThirdViewController.swift */; };
+		5931190E2191902900325965 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593119092191902900325965 /* BaseViewController.swift */; };
+		983022A0B38268EB1C0AB178 /* Pods_LCLScrollViewInScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56801127D1A2B4601D426B8 /* Pods_LCLScrollViewInScrollView.framework */; };
+		A822DCCE88B90583CE97607A /* Pods_LCLScrollViewInScrollViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9102608DC31DA69778B23FE3 /* Pods_LCLScrollViewInScrollViewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36C4F03F0E3EBAC0BC4EACF8 /* Pods-LCLScrollViewInScrollViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCLScrollViewInScrollViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCLScrollViewInScrollViewTests/Pods-LCLScrollViewInScrollViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		46D71DBB45B44E595A1876A0 /* Pods_LCLScrollViewInScrollViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCLScrollViewInScrollViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		505239C200CA55AACC68CB85 /* Pods-LCLScrollViewInScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCLScrollViewInScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCLScrollViewInScrollView/Pods-LCLScrollViewInScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 		593118C82191787C00325965 /* LCLScrollViewInScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCLScrollViewInScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		593118CB2191787C00325965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		593118CD2191787C00325965 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +62,21 @@
 		593118E72191787E00325965 /* LCLScrollViewInScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCLScrollViewInScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		593118EB2191787E00325965 /* LCLScrollViewInScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCLScrollViewInScrollViewUITests.swift; sourceTree = "<group>"; };
 		593118ED2191787E00325965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		593118F9219178FD00325965 /* MainScrollVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScrollVIewController.swift; sourceTree = "<group>"; };
+		593118F9219178FD00325965 /* MainScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScrollViewController.swift; sourceTree = "<group>"; };
+		593118FC21918F5100325965 /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		593118FE21918F6600325965 /* MyTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableView.swift; sourceTree = "<group>"; };
+		5931190021918F7A00325965 /* MyDynamicItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDynamicItem.swift; sourceTree = "<group>"; };
+		593119052191902900325965 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		593119062191902900325965 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		593119072191902900325965 /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		593119082191902900325965 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		593119092191902900325965 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6AF5200DA0E90C6243798710 /* Pods-LCLScrollViewInScrollViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCLScrollViewInScrollViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCLScrollViewInScrollViewTests/Pods-LCLScrollViewInScrollViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D506AB5D3DFD760753217EC /* Pods-LCLScrollViewInScrollViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCLScrollViewInScrollViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCLScrollViewInScrollViewUITests/Pods-LCLScrollViewInScrollViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9102608DC31DA69778B23FE3 /* Pods_LCLScrollViewInScrollViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCLScrollViewInScrollViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62E833FB352CD196C265BB6 /* Pods-LCLScrollViewInScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCLScrollViewInScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCLScrollViewInScrollView/Pods-LCLScrollViewInScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		D0616794D375CC82B8AC6A14 /* Pods-LCLScrollViewInScrollViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCLScrollViewInScrollViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCLScrollViewInScrollViewUITests/Pods-LCLScrollViewInScrollViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E56801127D1A2B4601D426B8 /* Pods_LCLScrollViewInScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCLScrollViewInScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983022A0B38268EB1C0AB178 /* Pods_LCLScrollViewInScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A822DCCE88B90583CE97607A /* Pods_LCLScrollViewInScrollViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1472E1F2CF32819160F196D3 /* Pods_LCLScrollViewInScrollViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21EF7B3DD8BE1FF25A63083F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				505239C200CA55AACC68CB85 /* Pods-LCLScrollViewInScrollView.debug.xcconfig */,
+				A62E833FB352CD196C265BB6 /* Pods-LCLScrollViewInScrollView.release.xcconfig */,
+				6AF5200DA0E90C6243798710 /* Pods-LCLScrollViewInScrollViewTests.debug.xcconfig */,
+				36C4F03F0E3EBAC0BC4EACF8 /* Pods-LCLScrollViewInScrollViewTests.release.xcconfig */,
+				D0616794D375CC82B8AC6A14 /* Pods-LCLScrollViewInScrollViewUITests.debug.xcconfig */,
+				6D506AB5D3DFD760753217EC /* Pods-LCLScrollViewInScrollViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47AFF6FB29D594EAC403F7D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E56801127D1A2B4601D426B8 /* Pods_LCLScrollViewInScrollView.framework */,
+				9102608DC31DA69778B23FE3 /* Pods_LCLScrollViewInScrollViewTests.framework */,
+				46D71DBB45B44E595A1876A0 /* Pods_LCLScrollViewInScrollViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		593118BF2191787C00325965 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +137,8 @@
 				593118DF2191787E00325965 /* LCLScrollViewInScrollViewTests */,
 				593118EA2191787E00325965 /* LCLScrollViewInScrollViewUITests */,
 				593118C92191787C00325965 /* Products */,
+				21EF7B3DD8BE1FF25A63083F /* Pods */,
+				47AFF6FB29D594EAC403F7D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +155,17 @@
 		593118CA2191787C00325965 /* LCLScrollViewInScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				593119042191900C00325965 /* subViewController */,
+				593118FB21918F3D00325965 /* extension */,
 				593118CB2191787C00325965 /* AppDelegate.swift */,
 				593118CD2191787C00325965 /* ViewController.swift */,
 				593118CF2191787C00325965 /* Main.storyboard */,
 				593118D22191787E00325965 /* Assets.xcassets */,
 				593118D42191787E00325965 /* LaunchScreen.storyboard */,
 				593118D72191787E00325965 /* Info.plist */,
-				593118F9219178FD00325965 /* MainScrollVIewController.swift */,
+				593118F9219178FD00325965 /* MainScrollViewController.swift */,
+				593118FE21918F6600325965 /* MyTableView.swift */,
+				5931190021918F7A00325965 /* MyDynamicItem.swift */,
 			);
 			path = LCLScrollViewInScrollView;
 			sourceTree = "<group>";
@@ -128,6 +188,26 @@
 			path = LCLScrollViewInScrollViewUITests;
 			sourceTree = "<group>";
 		};
+		593118FB21918F3D00325965 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				593118FC21918F5100325965 /* UIViewController+.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		593119042191900C00325965 /* subViewController */ = {
+			isa = PBXGroup;
+			children = (
+				593119092191902900325965 /* BaseViewController.swift */,
+				593119062191902900325965 /* FirstViewController.swift */,
+				593119072191902900325965 /* FourViewController.swift */,
+				593119052191902900325965 /* SecondViewController.swift */,
+				593119082191902900325965 /* ThirdViewController.swift */,
+			);
+			path = subViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 593118F02191787E00325965 /* Build configuration list for PBXNativeTarget "LCLScrollViewInScrollView" */;
 			buildPhases = (
+				0F84BC850CF848E38CE6E88E /* [CP] Check Pods Manifest.lock */,
 				593118C42191787C00325965 /* Sources */,
 				593118C52191787C00325965 /* Frameworks */,
 				593118C62191787C00325965 /* Resources */,
+				2B4CEEAB8A52AA93E8330C1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 593118F32191787E00325965 /* Build configuration list for PBXNativeTarget "LCLScrollViewInScrollViewTests" */;
 			buildPhases = (
+				F55F9248F7AF27A002F84A1C /* [CP] Check Pods Manifest.lock */,
 				593118D82191787E00325965 /* Sources */,
 				593118D92191787E00325965 /* Frameworks */,
 				593118DA2191787E00325965 /* Resources */,
@@ -170,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 593118F62191787E00325965 /* Build configuration list for PBXNativeTarget "LCLScrollViewInScrollViewUITests" */;
 			buildPhases = (
+				A2AF35117FD3E91AC31182CF /* [CP] Check Pods Manifest.lock */,
 				593118E32191787E00325965 /* Sources */,
 				593118E42191787E00325965 /* Frameworks */,
 				593118E52191787E00325965 /* Resources */,
@@ -254,14 +338,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F84BC850CF848E38CE6E88E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCLScrollViewInScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B4CEEAB8A52AA93E8330C1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LCLScrollViewInScrollView/Pods-LCLScrollViewInScrollView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCLScrollViewInScrollView/Pods-LCLScrollViewInScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2AF35117FD3E91AC31182CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCLScrollViewInScrollViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55F9248F7AF27A002F84A1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCLScrollViewInScrollViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		593118C42191787C00325965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				593118FA219178FD00325965 /* MainScrollVIewController.swift in Sources */,
+				593118FA219178FD00325965 /* MainScrollViewController.swift in Sources */,
+				593118FF21918F6600325965 /* MyTableView.swift in Sources */,
+				5931190E2191902900325965 /* BaseViewController.swift in Sources */,
+				5931190D2191902900325965 /* ThirdViewController.swift in Sources */,
+				5931190121918F7A00325965 /* MyDynamicItem.swift in Sources */,
+				5931190B2191902900325965 /* FirstViewController.swift in Sources */,
 				593118CE2191787C00325965 /* ViewController.swift in Sources */,
+				5931190A2191902900325965 /* SecondViewController.swift in Sources */,
+				593118FD21918F5100325965 /* UIViewController+.swift in Sources */,
 				593118CC2191787C00325965 /* AppDelegate.swift in Sources */,
+				5931190C2191902900325965 /* FourViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +603,7 @@
 		};
 		593118F12191787E00325965 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505239C200CA55AACC68CB85 /* Pods-LCLScrollViewInScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +621,7 @@
 		};
 		593118F22191787E00325965 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62E833FB352CD196C265BB6 /* Pods-LCLScrollViewInScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +639,7 @@
 		};
 		593118F42191787E00325965 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF5200DA0E90C6243798710 /* Pods-LCLScrollViewInScrollViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +660,7 @@
 		};
 		593118F52191787E00325965 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C4F03F0E3EBAC0BC4EACF8 /* Pods-LCLScrollViewInScrollViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +681,7 @@
 		};
 		593118F72191787E00325965 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0616794D375CC82B8AC6A14 /* Pods-LCLScrollViewInScrollViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +701,7 @@
 		};
 		593118F82191787E00325965 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D506AB5D3DFD760753217EC /* Pods-LCLScrollViewInScrollViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
