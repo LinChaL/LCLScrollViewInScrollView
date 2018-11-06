@@ -1,0 +1,2 @@
+# LCLScrollViewInScrollView
+解决嵌套ScrollView的滑动冲突，并自定义惯性减速和回弹效果
